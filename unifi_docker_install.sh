@@ -22,7 +22,7 @@ if [ ! -d "$path2" ]; then
 
 fi
 
-curl -s https://raw.githubusercontent.com/davidccunliffe/unifi-installer/main/docker-compose.yaml > $path2/docker-compose.yaml
+curl -s https://raw.githubusercontent.com/davidccunliffe/unifi-installer-for-Firewalla/main/docker-compose.yaml > $path2/docker-compose.yaml
 sudo chown pi $path2/docker-compose.yaml
 sudo chmod +rw $path2/docker-compose.yaml
 echo -e "\n✅ unifi yaml created."
