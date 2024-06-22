@@ -76,7 +76,7 @@ update=/home/pi/.firewalla/run/docker/updatedocker.sh
 touch $update
 sudo chown pi $update
 sudo chmod a+xrw $update
-curl -s https://gist.githubusercontent.com/mbierman/6cf22430ca0c2ddb699ac8780ef281ef/raw/4d5ab48db1d6aba9cde7032950ab44a9d3d77a8f/updatedocker.sh > $update
+curl -s https://gist.githubusercontent.com/davidccunliffe/661b742ec5a184c1524c867fae90e88f/raw/752bdb94926d3b8839a83e1744a9312d906c0909/updatedocker.sh > $update
 
 
 path3=/home/pi/.firewalla/config/post_main.d
